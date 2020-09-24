@@ -33,7 +33,7 @@
 						<!-- in href we can use this also href="${pageContext.request.contextPath}/" -->
 						<a href="http://localhost:8080/crudapp/" class="btn btn-outline-danger">Back</a>
 						<button type="submit" class="btn btn-outline-primary">Add</button>
-						
+						<h4>${addmsg }</h4>
 					</div>
 				</form>
 			</div>
