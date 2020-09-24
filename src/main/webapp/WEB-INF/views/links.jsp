@@ -31,5 +31,9 @@
 	integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 	crossorigin="anonymous"></script>
 
-
+<style>
+body{
+background-color:#424242;
+}
+</style>
 <title><c:out value="${title}">Product App</c:out></title>

@@ -6,11 +6,11 @@
 
 
 </head>
-<body>
+<body >
 	<div class="container mt-3">
 		<div class="row">
 			<div class="col-md-12">
-				<h1 class="text-center mb-3">Spring MVC + Hibernate CRUD Application</h1>
+				<h1 class="text-center mb-3" style="color:white;">Spring MVC + Hibernate CRUD Application</h1>
 				<table class="table mt-5">
 					<thead class="thead-dark">
 						<tr>
@@ -24,11 +24,11 @@
 					<tbody>
 						<c:forEach items="${products}" var="p">
 							<tr>
-								<th>PROD${p.id}</th>
-								<td>${p.name}</td>
-								<td>${p.description}</td>
-								<td class="font-weight-bold">&#x20B9; ${p.price}</td>
-								<td><a href="deleteproduct/${p.id }"><i
+								<th style="color:white;"> PROD${p.id}</th>
+								<td style="color:white;">${p.name}</td>
+								<td style="color:white;">${p.description}</td>
+								<td style="color:white;" class="font-weight-bold">&#x20B9; ${p.price}</td>
+								<td style="color:white;"><a href="deleteproduct/${p.id }"><i
 										class="far fa-trash-alt text-danger" style="font-size: 30px;"></i></a>
 									&nbsp
 									<a href="editproduct/${p.id }"><i
